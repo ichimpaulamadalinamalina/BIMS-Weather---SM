@@ -67,7 +67,7 @@ def action():
                 lcd.write_string("Humidity:{} RH".format(humi))
 
 
-                if temp>=35:
+                if temp>=32:
                         GPIO.output(red_led,GPIO.HIGH)
                         GPIO.output(green_led,GPIO.LOW)
                         GPIO.output(blue_led,GPIO.LOW)
@@ -75,7 +75,7 @@ def action():
                         msg="Looks like it's going to be a hot day today! Temperature: " + str(temp) + " C Humidity: " + str(humi)
                         send_mail(msg)
 
-                if 35> temp >= 25:
+                if 32> temp >= 20:
                         GPIO.output(green_led,GPIO.HIGH)
                         GPIO.output(blue_led,GPIO.LOW)
                         GPIO.output(red_led,GPIO.LOW)
@@ -83,7 +83,7 @@ def action():
                         msg="It's a sunny day. Enjoy it! Temperature: " + str(temp) + " C Humidity: " + str(humi)
                         send_mail(msg)
 
-                if temp<15:
+                if temp<20:
                         GPIO.output(blue_led,GPIO.HIGH)
                         GPIO.output(red_led,GPIO.LOW)
                         GPIO.output(green_led,GPIO.LOW)
@@ -95,4 +95,3 @@ def action():
 if __name__=="__main__":
         app.run(host='0.0.0.0')
         GPIO.cleanup()
-
