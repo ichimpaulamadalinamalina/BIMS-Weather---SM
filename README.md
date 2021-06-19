@@ -39,14 +39,8 @@ If the temperature is lower than 20 degrees Celsius, the blue LED will turn on a
 
 
 
-
-
-
-
-
-
-
-Cover
+# Cover
+<img src="images/Cover.jpg" >
 
 # Hardware Components
 1 x Raspberry Pi Zero W
@@ -99,12 +93,13 @@ Cover
 
 
 # An example when the email is sent and the warning LED turns on if the temperature is greater than 35 degrees Celsius.
+<img src="images/Email.png" >
 
 
-
-
+<img src="images/RedLEDOn.jpg" >
 
 # Schematics
+<img src="images/Schematic.png" >
 
 
 
@@ -187,7 +182,7 @@ Note: The display is connected with pin 3 and 15 at the two potentiometers.
 + **Open your browser and go to ip_raspberry:5000/index  (ex:192.168.244.37:5000/index)**
 
 # Web page
-
+<img src="images/WebPage.png" >
 
 # Contributions:
 
