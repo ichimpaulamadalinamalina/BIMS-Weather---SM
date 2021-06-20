@@ -92,7 +92,7 @@ If the temperature is lower than 20 degrees Celsius, the blue LED will turn on a
 
 
 
-# An example when the email is sent and the warning LED turns on if the temperature is greater than 35 degrees Celsius.
+# An example when the email is sent and the warning LED turns on if the temperature is greater than 32 degrees Celsius.
 <img src="images/Email.png" >
 
 
