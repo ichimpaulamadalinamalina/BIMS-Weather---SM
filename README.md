@@ -183,11 +183,3 @@ If the temperature is lower than 20 degrees Celsius, the blue LED will turn on a
 
 # Web page
 <img src="images/WebPage.png" >
-
-# Contributions:
-
-Ștefan Alexandra - Website
-
-Ichim Paula-Mădălina - Schematics on Fritzing and Documentation
-
-
